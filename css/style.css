@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+:root{
+    --branco: #fff;
+    --preto: #000;
+    --fundo-botao: #738E99;
+    --borda-botao: #1A264C;
+}
+body{
+    background-image: url('../img/background.gif');
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.conteudo h1, p{
+    font-family: 'Press Start 2P', cursive;
+    color: var(--branco);
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+.conteudo input{
+    margin-top: 20px;
+    width: 30%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .7);
+    border: none;
+    padding-left: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+.conteudo input::placeholder{
+    color: var(--preto);
+}
+.conteudo button{
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    border: none;
+    background-color: var(--fundo-botao);
+    border: 4px solid var(--borda-botao);
+    color: var(--branco);
+    cursor: pointer;
+}
+
+/* Media para dispositivos móveis */
+
+@media screen and (max-width:750px){
+    body{
+        background-size:cover;
+    }
+    .conteudo h1, p{
+        text-align: center;
+    }
+    .conteudo input{
+        width: 80%;
+    }
+    .conteudo button{
+        width: 50%;
+        margin: 20px auto;
+        display:block;
+    }
+}

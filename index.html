@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Gui | Conversão de número</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="conteudo">
+        <h1>Olá terráqueo</h1>
+        <p>A terra está prestes a ser invadida por alienígenas da raça Sandivas.</p>
+        <p>Precisamos da sua ajuda para expulsa-los!</p>
+        <p>Sua missão é digitar um número de 0 à 100 e exbibi-lo por extenso.</p>
+        <form name="formConverter">
+            <p><input type="number" min="0" max="100" placeholder="Digite o seu número" name="numeroInteiro"></p> 
+            <button onclick="return converterParaExtenso()">Converter</button>
+            <p>Número por extenso: </p>
+            <p id="resultadoExtenso"></p>
+        </form>
+    </div>
+
+    <script src="js/meu-js.js"></script>
+</body>
+</html>
