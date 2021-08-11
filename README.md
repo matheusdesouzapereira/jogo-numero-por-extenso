@@ -7,3 +7,6 @@ O que foi utilizado para criar essa aplicação:
 - Vanilla Javascript
 
 Não Foi utilizado nenhum tipo de framework.
+#Vídeo Demonstrativo do projeto funcionando:
+
+https://youtu.be/Cu1Y0ZdRoLw
